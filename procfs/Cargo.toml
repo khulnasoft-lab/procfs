@@ -21,7 +21,7 @@ procfs-core = { path = "../procfs-core", version = "0.16.0-RC1", default-feature
 rustix = { version = "0.38.19", features = ["fs", "process", "param", "system", "thread"] }
 bitflags = { version = "2.0", default-features = false }
 lazy_static = "1.0.2"
-chrono = {version = "0.4.20", optional = true, features = ["clock"], default-features = false }
+chrono = {version = "0.4.37", optional = true, features = ["clock"], default-features = false }
 hex = "0.4"
 flate2 = { version = "1.0.3", optional = true }
 backtrace = { version = "0.3", optional = true }
